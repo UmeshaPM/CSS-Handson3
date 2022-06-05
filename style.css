@@ -1,0 +1,171 @@
+body{
+  background-color: yellow;
+  margin: 0%;
+}
+.topbox {
+    width: 30%;
+    padding: 10px;
+    color: brown;
+    text-align: center;
+    font-style: italic;
+    background: #eee;
+    /* box-shadow: horizontal-offset vertical-offset blur spread color; */
+    box-shadow: 10px 10px 10px 0px #145FCC;
+    border: 15px solid rgb(158, 18, 18);
+    border-radius: 40px;
+  }
+  .main{
+    height: 600px;
+    border: 10px groove rgb(56, 228, 8);
+    padding-right: 80px;
+    position: relative;
+    margin-bottom: 30px;
+}
+  
+  .box1 {
+    width:14%;
+    height: 200px;
+    background-color: #eee;
+    text-shadow: 3px -1px 3px #5A51DA;
+    box-shadow: 10px 10px 10px 0px #145FCC;
+    line-height: 1.5;
+    padding: 10px;
+    border: 5px solid #000;
+    border-radius: 20px;
+    margin-bottom: 100px;
+    display:inline-block;
+    overflow: hidden;
+  }
+  
+  .box3 {
+    margin-left: 100px;
+    width: 14%;
+    height: 200px;
+    background-color: #eee;
+    text-shadow: 3px -1px 3px #5A51DA;
+    box-shadow: 10px 10px 10px 0px #145FCC;
+    padding: 30px 25px 5px;
+    border: 5px solid #000;
+    border-radius: 20px;
+    float: right;
+    background-image: url(https://res.cloudinary.com/grohealth/image/upload/c_fill,f_auto,fl_lossy,h_650,q_auto,w_1085/v1583748171/DCUK/Content/iStock-857145602.jpg);
+    background-size: 100%;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .box3 img {
+    /* margin-top: 20px; */
+    border: 3px solid #000;
+    border-top: none;
+}
+  .box2 {
+    width: 14%;
+    height: 220px;
+    background-color: #eee;
+    text-shadow: 3px -1px 3px #5A51DA;
+    box-shadow: 10px 10px 10px 0px #145FCC;
+    padding: 10px;
+    font-size:medium;
+    border: 5px solid #000;
+    border-radius: 20px;
+    font-size: 0.9em;
+    overflow: hidden;
+  }
+  
+  .box4 {
+    margin-left: 100px;
+    width: 14%;
+    height: 200px;
+    background-color: #eee;
+    text-shadow: 3px -1px 3px #5A51DA;
+    box-shadow: 10px 10px 10px 0px #145FCC;
+    padding: 30px 25px 5px;
+    border: 5px solid #000;
+    border-radius: 20px;
+    float: right;
+    position: absolute;
+    right: 70px;
+    top: 340px;
+  }
+  
+  .submitted {
+    margin-top: 10%;
+    width: 100px;
+    height: 20px;
+    background-color: red;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  .menu-box{
+    font-family: 'Merriweather', serif;
+    width: 50%;
+    height: 610px;
+    margin-bottom: 30px;
+    background-color: #11d0a4eb;
+    padding: 2px;
+    border: 10px groove rgb(125, 8, 228);
+}
+.fruits{
+    border: 2px solid #000;
+    padding: 10px;
+    width: 46%;
+    height: 250px;
+    float: left;
+    line-height: 2;
+    overflow: hidden;
+    background: rgb(79, 235, 178);
+    background: linear-gradient(0deg, rgb(235, 152, 79) 0%, rgb(123, 241, 60) 48%, rgba(255, 0, 212, 0.981) 100%);
+}
+.vegetables{
+    margin-bottom: 10px;
+    border: 2px solid #000;
+    padding: 10px;
+    width: 46%;
+    height: 250px;
+    float: right;
+    line-height: 2;
+    overflow: hidden;
+    background: rgb(106, 231, 185);
+    background: linear-gradient(0deg, rgb(235, 152, 79) 0%, rgb(123, 241, 60) 48%, rgba(255, 0, 212, 0.981) 100%);
+}
+.otheritems{
+    clear: both;
+    border: 5px solid #000;
+    height: 220px;
+    padding: 10px;
+    overflow: hidden;
+    background: rgb(106, 231, 185);
+    background: linear-gradient(0deg, rgb(235, 152, 79) 0%, rgb(123, 241, 60) 48%, rgba(255, 0, 212, 0.981) 100%);
+}
+.pop-up-box {
+    width: 25%;
+    height: 80px;
+    border-radius: 20px;
+    border: 5px solid rgb(186, 3, 3);
+    position:fixed;
+    left: 0px;
+    top: 85%;
+    left: 35%;
+    z-index: 1;
+    box-shadow: 10px 10px 10px 0px #145FCC;
+    background-color: greenyellow;
+    overflow: hidden;
+}
+
+.offer{
+    width: 60%;
+    padding: 0px 10px 0px 0px;
+    padding-top: 0px;
+    color: red;
+    float: left;
+    font-size: small;
+}
+.disc{
+    width: auto;
+    color: red;
+}
+
+  
+  
